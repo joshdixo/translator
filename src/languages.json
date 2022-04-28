@@ -1,0 +1,29 @@
+{
+    "languages": [
+        {
+            "code": "fr",
+            "label": "French",
+            "flag": "🇫🇷"
+        },
+        {
+            "code": "de",
+            "label": "Deutsch",
+            "flag": "🇩🇪"
+        },
+        {
+            "code": "it",
+            "label": "Italiano",
+            "flag": "🇮🇹"
+        },
+        {
+            "code": "es",
+            "label": "Español",
+            "flag": "🇪🇸"
+        },
+        {
+            "code": "sv",
+            "label": "Svenska",
+            "flag": "🇸🇪"
+        }
+    ]
+}
