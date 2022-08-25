@@ -1,12 +1,10 @@
-import './App.css';
-import LanguageList from './components/LanguageList/LanguageList';
-import InputText from './components/InputText/InputText';
+import "./App.css";
+import Translate from "./components/Translate/Translate";
 
 function App() {
   return (
     <div className="App">
-      <InputText />
-      <LanguageList />
+      <Translate />
     </div>
   );
 }

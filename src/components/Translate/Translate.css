@@ -1,0 +1,110 @@
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20% 0 0 0;
+  font-family: "Heebo", sans-serif;
+  position: relative;
+}
+
+input[type="text" i] {
+  padding: 11px 10px;
+  border: 2px solid rgb(0, 19, 165);
+  min-width: 300px;
+  width: 800px;
+  margin-right: 5px;
+  background: none;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  transition: box-shadow 0.2s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0px 0px 0px 3px rgba(41, 161, 241, 0.219) inset;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(162, 162, 162);
+  font-size: 1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+input[type="text"]:hover {
+  box-shadow: 0px 0px 0px 3px rgba(41, 161, 241, 0.219) inset;
+}
+
+input[type="submit" i] {
+  padding: 10px 10px;
+  width: 100px;
+  background: rgb(0, 19, 165);
+  color: #fff;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: box-shadow 0.2s;
+  outline: none;
+  border: none;
+}
+
+/* input[type="submit" i] {
+  padding: 1em 2em;
+  border-radius: 8px;
+  border: #024959;
+  background: #024959;
+  color: #f2e7dc;
+} */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  max-width: 330px;
+  background-color: rgb(255, 255, 255);
+  /* border: 5px solid rgba(41, 161, 241, 0.219); */
+  color: #000;
+  margin: 20px;
+  justify-content: space-between;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  /* border: 5px solid rgba(41, 161, 241, 0.219); */
+  box-shadow: 0px 0px 0px 3px rgba(41, 161, 241, 0.219) inset;
+}
+
+.card-translation {
+  padding: 25px;
+  font-size: 1rem;
+}
+
+.card-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.card-label::before {
+  content: "";
+  position: relative;
+  width: 40%;
+  left: 25px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h2 {
+  padding-left: 25px;
+  font-size: 1rem;
+  color: rgb(0, 19, 165);
+}
